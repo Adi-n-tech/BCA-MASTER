@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_sub"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".InterviewQueActivity">
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Personal Interview"
+        android:background="@drawable/bg_button"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:onClick="Basic"
+        android:textColor="#fff"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="C Programming"
+        android:background="@drawable/bg_button"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:onClick="CProg"
+        android:textColor="#fff"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Java Programming"
+        android:background="@drawable/bg_button"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:onClick="JavaProg"
+        android:textColor="#fff"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="MySQL"
+        android:background="@drawable/bg_button"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:onClick="MySQL"
+        android:textColor="#fff"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Android Programming"
+        android:background="@drawable/bg_button"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:onClick="Android"
+        android:textColor="#fff"
+        />
+</LinearLayout>

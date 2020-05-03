@@ -1,0 +1,2 @@
+rootProject.name='BCA MASTER'
+include ':app'

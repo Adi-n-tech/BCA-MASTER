@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "99347617965",
+    "firebase_url": "https://bcamaster-ce407.firebaseio.com",
+    "project_id": "bcamaster-ce407",
+    "storage_bucket": "bcamaster-ce407.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99347617965:android:5482c789ef81a977cd8e24",
+        "android_client_info": {
+          "package_name": "com.adintech.bcamaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99347617965-5qpebe6jima66i4geivdogllbo7991g0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.adintech.bcamaster",
+            "certificate_hash": "920552f66635214411609b929f7938c45c8bbc86"
+          }
+        },
+        {
+          "client_id": "99347617965-r4oi99eubtddac28fjoe5j1lqa2rqgan.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDW-LMYnszcChE7y1CTaN4qhTE12qu0Vw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99347617965-r4oi99eubtddac28fjoe5j1lqa2rqgan.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
