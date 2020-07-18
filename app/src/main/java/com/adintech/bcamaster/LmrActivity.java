@@ -309,7 +309,6 @@ public class LmrActivity extends AppCompatActivity {
             return textView;
         }
 
-
         @Override
         public boolean isChildSelectable(int i, int i1) {
             return true;
