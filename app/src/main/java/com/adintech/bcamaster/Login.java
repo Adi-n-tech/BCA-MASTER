@@ -24,6 +24,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.app.progressbar.LoadingProgressBarDialog;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
@@ -35,7 +36,7 @@ public class Login extends AppCompatActivity {
     TextView signup, forgot;
     FirebaseAuth firebaseAuth;
     private FirebaseAuth.AuthStateListener authStateListener;
-    ProgressDialog mProgress;
+    private AlertDialog mProgress;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,12 +47,10 @@ public class Login extends AppCompatActivity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_login);
 
-        mProgress = new ProgressDialog(this,mProgress.THEME_HOLO_DARK);
-        /*mProgress.setTitle("Processing...");*/
-        mProgress.setMessage("Please wait...");
-        mProgress.setCancelable(false);
-        mProgress.setIndeterminate(true);
-
+        mProgress = new LoadingProgressBarDialog.Builder()
+                .setContext(this)
+                .setMessage("Please wait")
+                .build();
 
         firebaseAuth = FirebaseAuth.getInstance();
         loginEmailId = findViewById(R.id.loginEmail);

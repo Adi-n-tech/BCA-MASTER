@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/progress_bar_size"
+        android:background="@drawable/round_white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dmax_spots_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/title_margin"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/title_padding"
+            android:text="?attr/DialogTitleText"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/sp15"
+            android:textStyle="normal" />
+
+        <com.app.progressbar.ProgressBarLayout
+            android:id="@+id/dmax_spots_progress"
+            android:layout_width="@dimen/progress_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/progress_margin" />
+
+        <View
+            android:id="@+id/spaceView"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/gray_white"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/cancelProgressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_white"
+            android:text="Cancel"
+            android:textAllCaps="true"
+            android:textColor="#ff0000"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</LinearLayout>
